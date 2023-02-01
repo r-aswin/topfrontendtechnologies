@@ -1,0 +1,9 @@
+.error{
+    border: 2px solid red;
+    border-color: red;
+    background-color: rgb(241, 194, 194);
+  }
+
+.wronginput{
+  color: red;
+}
