@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grunt</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        #gruntback{
+            background-color:rgba(251,169,25,255);
+            padding: 5px;
+        }
+        #exploregrunt{
+            border: 2px solid orange;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <img src="images/Uppercase_letter_Z.png" width="30" height="30" class="d-inline-block align-top" alt="bloglogo">
+        <a class="navbar-brand" href="index.html">blogs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="content.html">Contents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="react.html">React JS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="angular.html">Angular JS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vue JS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="flutter.html">Flutter</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="meteor.html">Meteor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ionic.html">Ionic</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Grunt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="npm.html">NPM</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bootstrap.html">Bootstrap</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About page</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" id="gruntback">
+        <img src="images/grunt/bg-grunt.jpg" alt="meteor" class="rounded float-left" height="120px" width="240px">
+        <h1 class="display-1">Grunt</h1>
+    </div>
+    <br>
+    <div class="container">
+        <h1>What is grunt?</h1>
+        <img src="images/grunt/grunt.png" alt="meteor" class="rounded float-right" height="200px" width="350px">
+        <p>Grunt is a JavaScript Task Runner which can be used as a command line tool for JavaScript objects. It is a task manager written on top of NodeJS.</p>
+        <p>The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze.</p>
+        <p>Grunt can perform repetitive tasks very easily, such as compilation, unit testing, minifying files, running tests, etc. Grunt includes built-in tasks that extend the functionality of your plugins and scripts.The ecosystem of Grunt is huge; you can automate anything with very less effort.</p>
+        <p>The first lines of source code were added to GruntJS in 2011. The Grunt v0.4 was released on February 18, 2013. The Grunt v0.4.5 was released on May 12, 2014. The stable version of Grunt is 1.0.0 rc1 which was released on February 11, 2016.</p>
+    </div>
+    <br>
+    <div class="container">
+        <h1>Advantages</h1>
+        <p>Many people are of the opinion that the benefit of using Grunt (or any build tool for that matter) is to possibly save time, and often this tradeoff—of learning time versus actual development time is deemed too risky, which then leads to the programmer staying safe with the manual method. This perception is misguided. The added efficiency is only one of benefits of using Grunt, the other main benefits include: build consistency, increased effectiveness, community utilization, and task flexibility.</p>
+        <ul>
+            <li>Using Grunt, you can perform minification, compilation, and testing of files easily</li>
+            <li>Grunt unifies the workflows of web developers</li>
+            <li>You can easily work with a new codebase using Grunt because it contains less infrastructure</li>
+            <li>It speeds up the development workflow and enhances the performance of projects</li>
+        </ul>
+        <h3>Efficiency</h3>
+        <p>Hypothetically, let's say it takes us 2 minutes per build and we need to build (and run the tests) numerous times every hour, resulting in approximately 50 builds per day. With this schedule, it costs us approximately 100 minutes per day in order to perform the monotonous task of manual running various sets of command-line tools in the right sequence. Now, if learning a new build tool like Grunt takes us 2-3 hours of research and 1-2 hours to implement the existing build process as a Grunt build, then this cost will be recovered in only a week of work. Considering that most programmers will be using their trade for years to come, the decision is simple—use a build tool as it is well worth the time investment.</p>
+        <p>With this in mind, we can see the time spent to learn a new tool like Grunt is negligible in comparison with the time saved across the entire span of all projects in which that tool is used.</p>
+        <h3>Consistency</h3>
+        <p>The human propensity for error is an unavoidable hurdle programmers face when carrying out a manual build process. This propensity is further increased if a given build process involves each command being manually typed out instead of saving them in some kind of script for easier execution. Even with an array of scripts, problems can still arise if someone forgets to execute one, or if the special script required for a special situation is forgotten.</p>
+        <p>Using Grunt provides us with the ability to implement our build logic inside the build process. Once the build has been set up and confirmed, this effectively removes the possibility for human error from the equation entirely. This ability also helps newcomers contribute to your projects by allowing them to quickly get started on the code base as opposed to getting bogged down trying to understand the build.</p>
+        <p>Also, as a result of the great effort behind the Node.js project, we can also run our encapsulated build process across all major operating systems. This allows developers from all walks of life to use and enhance a common build process.</p>
+        <h3>Effectiveness</h3>
+        <p>As well as saving time from doing less, we also save time by staying in the zone. For many programmers, it often takes us some time to gather momentum in order to bring our brains into gear. By automating the build process, we multi-task less, allowing us to keep our minds focused on the current task at hand.</p>
+        <h3>Community</h3>
+        <p>A common problem for many build tools is the lack of community support. Most build tool have plugins for many common build processes, but as soon as we want to perform a task that is too niche or too advanced, we are likely to be forced to restart from scratch.</p>
+        <h3>Flexibility</h3>
+        <p>Another common problem for many build tools is the level of prior knowledge required to write your own task. Often, they also require varying levels of setup before you can start actually writing code. A Grunt task is essentially just a JavaScript function, and that's it. Tasks can be defined with various levels of complexity to suit the needs of build process. However, remaining at the root of all tasks is the idea of one task being one function—for example, this Gruntfile.js defines a simple task called foo:</p>
+    </div>
+    <br>
+    <div class="container" id="exploregrunt">
+        <div class="card-body">
+           <h5 class="card-title">Want More?</h5>
+           <p class="card-text">Want to know more about Grunt? Click the button below!</p>
+           <a href="https://gruntjs.com/" class="btn btn-warning">Try Grunt!</a>
+       </div>
+     </div>
+     <br>
+     <div class="card text-center">
+       <div class="card-header">
+       </div>
+       <div class="card-body">
+         <h5 class="card-title"></h5>
+         <p class="card-text"></p>
+         <a href="index.html" class="btn btn-primary">Back to Home</a>
+       </div>
+       <div class="card-footer text-muted">
+   
+       </div>
+   </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

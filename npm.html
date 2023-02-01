@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPM</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: rgba(237,246,255,255);
+        }
+        #npmbg{
+            background-color: rgba(205,55,56,255);
+            padding: 30px;
+
+        }
+        #npmhd{
+            color: white;
+        }
+        #whtnpm{
+            background-color: rgba(237,246,255,255);
+           
+        }
+        #topbg{
+            background-color: rgba(237,246,255,255);
+            padding: 5px;
+        }
+        #key{
+            background-color:rgba(255,255,1,255);
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        #explorenpm{
+            border: 2px red solid;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <img src="images/Uppercase_letter_Z.png" width="30" height="30" class="d-inline-block align-top" alt="bloglogo">
+        <a class="navbar-brand" href="index.html">blogs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="content.html">Contents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="react.html">React JS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="angular.html">Angular JS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="vuejs.html">Vue JS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="flutter.html">Flutter</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="meteor.html">Meteor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ionic.html">Ionic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="grunt.html">Grunt</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">NPM</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bootstrap.html">Bootstrap</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About page</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" id="npmbg">
+        <img src="images/npm/npmlogo.jpeg" alt="npm" class="rounded float-left" height="75px" width="150px">
+        <h6 id="npmhd" class="display-4">Node Pack Manager</h6>
+    </div>
+    <div class="container-fluid" id="topbg">
+        <div class="container" id="whtnpm">
+            <h1>What is NPM?</h1>
+            <img src="images/npm/nodegls.png" height="300px" width="420px" alt="" class="rounded float-right">
+            <p>NPM or Node Package Manager is an open-source repository of tools engineers use to develop applications and websites.</p>
+            <p>Before we can explain what NPM package is, it’s essential to understand the idea of a package manager. Think of a package manager as a toolkit for developers.
+
+                Let’s say you’re building an application that uses Stripe for payments. A package manager installs all the code your product will need to communicate with Stripe and process payments.
+                
+                Instead of writing all that code or copy/pasting it from Stripe’s docs, engineers simply enter a command, and the package manager installs the code dependencies they need from Stripe.
+                
+                There are millions of these packages for everything you can think of to develop an application–like different types of search functionality, APIs, payments, authentication tools, maps, icons, hosting, and more.
+                
+                You get public open-source repositories (like NPM) where anyone can upload and install packages, as well as private package repositories with restricted access.</p>
+                <p>NPM is two things:</p>
+                <ul>
+                    <li>A repository for publishing open-source projects. Simplified version: a digital storage and retrieval facility</li>
+                    <li>A command-line interface (CLI) for interacting with the repository. Simplified version: a tool to communicate with the storage facility</li>
+                </ul>
+                <p>A command-line interface (CLI) is a text interface developers use to interact with computer programs. This CLI allows you to execute commands to run background operations necessary for software development.
+
+                    In the case of NPM, the CLI allows you to interact with the package registry. For example, engineers can use commands like npm install followed by the package name to install a specific package.</p>
+        </div>
+    </div>
+    <div class="container" id="key">
+        <img src="images/npm/NPM-mm.jpg" class="rounded float-right" alt="node"  height="400px" width="570px">
+        <h1>Key Takeaways</h1>
+        <ul>
+            <li>Instead of copying and pasting code, developers use package managers to install the code in their project</li>
+            <li>NPM is one of such package managers; it’s a standard one for storing and retrieving JavaScript projects</li>
+            <li>NPM is not only a repository of packages, but also a tool to communicate with storage facility</li>
+            <li>Use NPM to bring UI components into UXPin</li>
+        </ul>
+        <p>Many programming languages use packages to build and scale websites, software, and other digital products. These packages allow engineers to extend a project’s functionality without writing and maintaining additional code.</p>
+        <p>If your company uses Node.js, you’ve probably heard engineers talking about NPM, Node.js packages, or a package manager. This article will explain these terms from a designer’s perspective, so you get a basic understanding of how packages work and why engineers use them.</p>
+        <p>Bridge the gap between design and development with UXPin Merge–a revolutionary technology that gives designers the ability to design UIs with fully functioning code components.</p>
+    </div>
+    <div class="container">
+        <h1>Advantages</h1>
+        <ul>
+            <li>Manage local dependencies of project’s tools.</li>
+            <li>Manage globally-installed project’s tools.</li>
+            <li>Manage multiple versions of code and code dependencies.</li>
+            <li>Manage multiple versions of code and code dependencies.</li>
+            <li>NPM provides package-lock.json which displays all dependencies of the project</li>
+        </ul>
+    </div>
+    <br>
+    <div class="container" id="explorenpm">
+        <div class="card-body">
+           <h5 class="card-title">Want More?</h5>
+           <p class="card-text">Want to know more about NPM? Click the button below!</p>
+           <a href="https://www.npmjs.com/" class="btn btn-danger">Try NPM!</a>
+       </div>
+     </div>
+     <br>
+     <div class="card text-center">
+       <div class="card-header">
+       </div>
+       <div class="card-body">
+         <h5 class="card-title"></h5>
+         <p class="card-text"></p>
+         <a href="index.html" class="btn btn-primary">Back to Home</a>
+       </div>
+       <div class="card-footer text-muted">
+   
+       </div>
+   </div>
+
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
